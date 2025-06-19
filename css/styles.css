@@ -1,0 +1,182 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+     }
+ ul, ol {
+    list-style-type: none;
+     }
+     a {
+        text-decoration: none;
+     }
+         .header .logo-part,
+         .nav-link,
+         .advantages-title-secondary,
+         .team-title,
+         .team-title-secondary,
+         .portfolio-title,
+         .portfolio-title-secondary {
+             color: #2e2f42;
+         }
+     /* Header start */
+     .logo {
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #4d5ae5;
+           }
+    
+    .nav-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    .nav-link:hover,
+    .nav-link:focus,
+    .contacts-link:hover,
+    .contacts-link:focus {
+        color: #404bbf;
+    }
+    .contacts {
+        font-style: normal;
+    }
+
+.contacts-link {
+line-height: 1.5;
+font-size: 16px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/* Header end */
+
+/* Hero-baner start */
+.hero-baner,
+.footer {
+    background-color: #2e2f42;
+}
+.hero-baner-title{
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+.hero-baner-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background-color: #4d5ae5;
+cursor: pointer;
+}
+.hero-baner-button:hover,
+.hero-baner-button:focus{
+background-color:  #404bbf;
+/* Hero=baner end  */
+}
+/* advantages section start */
+
+.advantages-title {}
+
+.advantages-list {}
+
+.advantages-item {}
+
+.advantages-title-secondary {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.advantages-text {
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        line-height: 1.5;}
+
+/* advantages section end */
+
+ /* Team start */
+ .team {background-color: #f4f4fd;
+ }
+
+ .team-title {
+   text-transform: capitalize;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+ .team-list {
+  background-color: #ffffff;
+ }
+
+ .team-items {background-color: #ffffff;}
+
+ .team-img {}
+
+ .team-title-secondary {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    }
+
+ .team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    } 
+
+ /* Team end */
+ /* Portfolio start */
+ .portfolio {}
+
+ .portfolio-title {
+    text-transform: capitalize;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+ }
+
+ .portfolio-items {}
+
+ .portfolio-img {}
+
+ .portfolio-title-secondary {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+ }
+
+ .portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+ /* Portfolio end */
+ /* Footer star */
+
+    .footer .logo-part {
+        color: #f4f4fd;
+    }
+
+    .foter-text {
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+        color:#f4f4fd;}
+ /* Footer end */

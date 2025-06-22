@@ -103,6 +103,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
     padding: 188px 0 ;}
 
 
+
 .hero-baner-title{
     font-weight: 700;
     font-size: 56px;
@@ -274,7 +275,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
  /*  Footer star  */
 
 .footer {
-    padding: 100px 0;}
+    padding: 100px 0;
+    background-color: #2e2f42;}
 
 .footer .logo-part {
     color: #f4f4fd;}

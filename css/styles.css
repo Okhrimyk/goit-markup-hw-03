@@ -214,8 +214,7 @@ background-color: #fff;
 display: flex;
 gap: 24px;
 max-width: 264px;
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-margin: 120px 0; 
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); 
 }
 
  .team-items {background-color: #ffffff;
@@ -247,6 +246,9 @@ margin: 120px 0;
  /* Team end */
  /* Portfolio start */
  .portfolio {}
+ .portfolio-style {
+    padding: 120px 0;
+ }
 
  .portfolio-title {
     text-transform: capitalize;

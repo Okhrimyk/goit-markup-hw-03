@@ -98,9 +98,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 /* Header end */
 
 /* Hero-baner start */
-.hero-baner,{
+.hero-baner {
     background-color: #2e2f42;
-    padding: 188px 0;}
+    padding: 188px 0 ;}
 
 
 .hero-baner-title{
@@ -157,10 +157,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 
 .advantages-list {
     display: flex;
-    gap: 24px;
-    width: calc((100% - 72) / 4);} 
+    gap: 24px;} 
 
-.advantages-item {}
+.advantages-item {
+    width: calc((100% - 72px) / 4);}
 
 .advantages-title-secondary {
     font-weight: 500;
@@ -197,15 +197,15 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
     display: flex;
     gap: 24px;
     width: calc((100% - 72) / 4);
-    border-radius: 0px 0px 4px 4px;
+    /* border-radius: 0px 0px 4px 4px; */
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}
 
 .team-items {
     background-color: #ffffff;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;}
 
-.team-img {}
-.iteams-name {
+.items-name {
     text-align: center;
     padding: 32px 0px;
     /* border-radius: 0 0 4px 4px; */}
@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
     color:#f4f4fd;
     max-width: 264px;}
 
-.logo .footer-logo {
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;}
  

@@ -101,9 +101,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 .hero-baner {
     background-color: #2e2f42;
     padding: 188px 0 ;}
-
-
-
+    
 .hero-baner-title{
     font-weight: 700;
     font-size: 56px;
@@ -198,7 +196,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
     display: flex;
     gap: 24px;
     width: calc((100% - 72) / 4);
-    /* border-radius: 0px 0px 4px 4px; */
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}
 
 .team-items {
@@ -208,8 +205,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 
 .items-name {
     text-align: center;
-    padding: 32px 0px;
-    /* border-radius: 0 0 4px 4px; */}
+    padding: 32px 0px;}
 
 .team-title-secondary {
     font-weight: 500;
@@ -249,8 +245,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 .portfolio-items {
     width: calc((100% - 48px)/3);}
 
-.portfolio-img {}
-
 .portfolio-items-text {
     border-bottom: 1px solid #e7e9fc;
     border-top: none;
@@ -281,9 +275,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 .footer .logo-part {
     color: #f4f4fd;}
 
-.footer-style {
+/* .footer-style {
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;} */
 
 .footer-text {
     font-size: 16px;
